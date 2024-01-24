@@ -1,1 +1,42 @@
-<video src="" controls></video>
+<video width= src="" controls autoplay poster=""></video> // controls attribute 
+<audio src="" preload=none/metadata/auto></audio>
+svg are high vector images...
+whenever you add svgs then you should use namespace delaration else you will face error
+
+IFRAMES IN HTML
+these are the most amazing thing you can even embbed another website in your webpage using iframe tag
+also youtube videos can also be embbed using iframes in html
+
+Relevance of HTML tags-----------
+The term 'Hypertext Markup Language' is composed of two main words: 'hypertext' and 'markup language.' 'Hypertext' refers to the linking of text with other documents, while 'markup language' denotes a language that utilizes a specific set of tags.
+
+Subtags ko attribute kehte hain....
+<a src=""> here  a is tag and src is attribute...
+
+In anchor tag if you have created a link without using target="_blank" then when you click the link in website then new website will get open in current page only but if you click using the mosuse wheel it will open in new page but if you wnat that it will open in new page by default then use the given attribute....
+
+SEO Vitals-------------------------------
+1 - CLS(Cummulative Layout Shift)
+how much page is shifting while loading
+if you apply width and height in images then layout will not shift
+2 - LCP(Largest Contentful Paint)
+how much time the largest element of the page takes to get loaded(2.5sec)
+3 - FID(First Input Delay)
+how much time input takes to get processed
+
+Google Lighthouse --> 
+It generates a report and give suggestions about your website that any search engine do notice while reviewing your website.
+-----------------------------------------
+How to open previw our website in your phone?
+just pasted the ipv4 address in livepreview of settings of vscode and pasted the address in my phone
+------------------------------------------
+Some imp vscode shortcuts
+-> Alt+Shift+down replicate a line
+-> Alt+cursor multiple cursor 
+-> lorem7 used to write dummy text
+
+Inline and Block Elements-->
+inline elements are the elements which take the width as much as required 
+while block elements are the elements which aquire the complete width of the screen.
+
+#IDs are used  in linking also...
