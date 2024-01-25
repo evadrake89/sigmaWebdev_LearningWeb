@@ -32,7 +32,8 @@ just pasted the ipv4 address in livepreview of settings of vscode and pasted the
 ------------------------------------------
 Some imp vscode shortcuts
 -> Alt+Shift+down replicate a line
--> Alt+cursor multiple cursor 
+-> Alt+cursor multiple cursor
+-> Shift+Tab this will decrease one indent 
 -> lorem7 used to write dummy text
 
 Inline and Block Elements-->
@@ -40,3 +41,20 @@ inline elements are the elements which take the width as much as required
 while block elements are the elements which aquire the complete width of the screen.
 
 #IDs are used  in linking also...
+
+Sementic Tags in HTML--------------------------------------
+these tags are basically used for SEO purposes they basically explain the search engines the purpose of different tags in your webpage and they rank our website correctly
+like nav,header,footer,.....
+You can also take refernece from semantic-tags.png file
+
+HTML Entities-----------------------
+They are used to make use of reserved characters in HTML and characters which are readily not available on your keyboard.
+&lt; <
+&gt; >
+&nbsp; non breaking space
+<pre> tag is used to add content as it is with space
+&copy; copyright symbol
+<blockqoute> tag(Long Qoutes) and <q> tag(Short Qoutes) basically are qoutation tags in HTML
+<code> tag and prism.js these are something to be used for displaying code on your webpage.
+
+USE CODEWITHHARRY.COM WEBSITE FOR THEORY OF HTML.....

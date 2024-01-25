@@ -1,0 +1,74 @@
+CSS are of three different types
+-> Inline CSS added as attribute style
+    Recommended not be used but when your website is very small you can use it!
+-> Internal CSS added using style tag in head
+    Recommended when you are using any external library such as bootstrap which completely handles your styling part then for small changes you cans use use it!
+-> External CSS added using link tag it will link in an external css file with extension .css
+    Recommended when you are working on a production grade project you can use it!
+
+Selectors in CSS--------
+->Element Selectors
+    element_name{
+        ------
+    }
+->Class Selectors
+    .class_name{
+        -----
+    }
+->ID Selectors
+    #id_name{
+        ------
+    }
+->Child Selectors
+    parent_name > child_name{
+        ------
+    }
+    child_name should be direct desendant or first child of its parent
+->Descendent Selectors
+    parent_name child_name{
+        ------
+    }
+    child_name should be a child of its parent_name it is not ncessary that its first only
+->Universal Selectors
+    *{
+        ----
+    }
+->Pseudo Selectors
+    a:first-child{
+
+    }
+    //it is just an special example ....
+
+BOX MODEL in CSS--------------------------------------------
+Each and every thing inside css is a box...
+Margin > border > padding > content
+
+*if you give directly a height of 200px to any element then 200px is taken by its content only but when you set box-sizing = border-box property then 200px is the height in which content padding and border is included....
+
+Concept of Margin Collapse-------in Box MODEL
+between two elements which are placed up and down so if 1 has a margin of 25px and the other has margin of 25px then by observation the gap between the two must be 50 px but it will remain 25 px because the gap between the two will be equal to the max of both the margins and applied once...
+
+FONTS IN CSS-----------------------------------------------------
+line-height
+font-style
+font-weight
+font-family
+text-decoration
+letter-spacing
+text-transform
+text-decoration-color
+text-decoration-style
+text-decoration-thickness
+text-indent
+text-overflow
+overflow
+word-break
+text-align
+/// Please take help of fonts video tutorial 19 codewithharry 
+
+Ways to represent colors in CSS----------
+1. Color Keywords
+2. Hex codes
+3. RGB values
+4. RGBA values (RGB with opacity(alpha value))
+5. HSL values(Hue,Saturation,Lightness)
